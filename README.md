@@ -6,7 +6,7 @@
 [![Garmin Connect IQ: Find on the watchface store](https://img.shields.io/badge/Garmin%20Connect%20IQ-Find%20on%20the%20watchface%20store-white?logoColor=11a9ed&labelColor=11a9ed&color=white)
 ](https://apps.garmin.com/en-US/apps/50dd84d8-feaa-451a-9b2d-470031e750b5)
 
-<div align="center"><img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/cover-image.png" alt="A watchface displaying the time four o'clock"></div>
+https://github.com/Cutwell/garmin-square-watchhands-watchface/assets/22395357/504568da-00eb-4975-abe6-80ba641deeb8
 
 ## Install
 
