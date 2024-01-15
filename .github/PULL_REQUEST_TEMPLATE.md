@@ -18,4 +18,4 @@ If there's _not_ an existing issue, please open one first to make it more likely
 - [ ] I have commented new code appropriately.
 - [ ] I have added documentation for new features where necessary.
 - [ ] I have tested the codebase successfully.
-- [ ] I have formated the code according to the [`pep8`](https://pep8.org/) style
+- [ ] I have formated the code using [Prettier Monkey C](https://marketplace.visualstudio.com/items?itemName=markw65.prettier-extension-monkeyc) VSCode extension (or a similar for my IDE).

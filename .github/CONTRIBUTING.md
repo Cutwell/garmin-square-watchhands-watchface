@@ -1,7 +1,5 @@
 # Contributing Guide
 
-<!--READ ME: if using this template for your own GitHub project, be sure to find and replace "Cutwell/garmin-square-hands-watchface" with your own username and repository. -->
-
 Thank you for investing your time in contributing to our project! :sparkles:.
 
 
@@ -23,11 +21,11 @@ We consider all sorts of contributions to our project, some of which don't even 
 
 #### Create a new issue
 
-If you spot a problem, [search if an issue already exists](https://github.com/Cutwell/garmin-square-hands-watchface/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/Cutwell/garmin-square-hands-watchface/issues/new).
+If you spot a problem, [search if an issue already exists](https://github.com/Cutwell/garmin-square-watchhands-watchface/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/Cutwell/garmin-square-watchhands-watchface/issues/new).
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/Cutwell/garmin-square-hands-watchface/issues) to find one that interests you. You can narrow down the search using `labels` as filters.
+Scan through our [existing issues](https://github.com/Cutwell/garmin-square-watchhands-watchface/issues) to find one that interests you. You can narrow down the search using `labels` as filters.
 
 ### Make Changes
 
@@ -39,44 +37,25 @@ Scan through our [existing issues](https://github.com/Cutwell/garmin-square-hand
 - Using the command line:
   - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
-2. Install the app and dev dependencies:
+2. Follow the [Getting Started](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/) page to install Monkey C and VSCode development extensions.
 
-If using `poetry`:
-
-```sh
-poetry install --with dev
-```
-
-If using `pip`:
-
-```sh
-pip install -r requirements.txt
-pip install pytest autopep8
-```
+! Note: Remember to set the position of the watch in the simulator (or by temporarily replacing `lat` and `lng` in `calculateSunriseSunset()` with dummy values). This is required since the simulator default `(180.00, 180.00)` isn't a valid position and breaks the functionality.
 
 3. Create a working branch and start with your changes!
 
 ### Commit your update
 
-Commit the changes once you are happy with them. Don't forget to format your code according to the [pep8](https://pep8.org/) style and check that all unit tests pass, in order to speed up the review process :zap:.
+Commit the changes once you are happy with them. Don't forget to format your code in order to speed up the review process :zap:.
 
-Run unit tests (from the project root) using:
+Test your app - use the simulator to test the watchface works for a complete 24 hour cycle.
 
-```sh
-pytest -s .
-```
-
-Auto-format your code to `pep8` standards (ran also from the project root) using:
-
-```sh
-autopep8 --in-place --aggressive --recursive .
-```
+Format your code with the [Prettier Monkey C](https://marketplace.visualstudio.com/items?itemName=markw65.prettier-extension-monkeyc) VSCode extension.
 
 ### Update necessary docs
 
 If you've made changes that affect the usage of the app, update the README with any new features or instructions.
 
-If you've made changes that affect the visual output of the app, create a new demo GIF using [terminalizer](https://github.com/faressoft/terminalizer) and compress the output using [gifcompressor](https://gifcompressor.com). Use the `demo.yml` file to recreate the look and feel of the demo GIF.
+If you've made changes that affect the visual output of the app, update the README with suitable screenshots from the simulator.
 
 ### Pull Request
 
@@ -95,4 +74,4 @@ Congratulations :tada::tada: :sparkles:.
 
 Once your PR is merged, your contributions will be publicly visible on the repository.
 
-Now that you are part of our community, check the [issues list](https://github.com/Cutwell/garmin-square-hands-watchface/issues) to see how else you can contribute.
+Now that you are part of our community, check the [issues list](https://github.com/Cutwell/garmin-square-watchhands-watchface/issues) to see how else you can contribute.

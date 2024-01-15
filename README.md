@@ -1,12 +1,12 @@
-# <img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/square-watchhands/resources/drawables/logo.png" style="width:65px;padding-right:20px;margin-bottom:-8px;"> Garmin square-watchhands Watchface
- Express the current time by highlighting words on the Garmin watchface
+# <img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/square-watchhands/resources/drawables/logo.png" style="width:65px;padding-right:20px;margin-bottom:-8px;"> Garmin Square Watchhands Watchface
+ Abstract Garmin watchface with square watchhands
 
 <!-- Find new badges at https://shields.io/badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Garmin Connect IQ: Find on the watchface store](https://img.shields.io/badge/Garmin%20Connect%20IQ-Find%20on%20the%20watchface%20store-white?logoColor=11a9ed&labelColor=11a9ed&color=white)
-](https://apps.garmin.com/en-US/apps/b6ac3e67-1e91-4689-955e-b1f94e289d40)
+]()
 
-<div align="center"><img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/cover-image.png" alt="A watchface expressing the time as 'It is quarter past four'."></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/cover-image.png" alt="A watchface displaying the time four o'clock"></div>
 
 ## Install
 
@@ -19,7 +19,7 @@ Download a pre-built binary for supported devices:
 |Forerunner 45|
 |Forerunner 45 Plus|
 
-1. Download the latest release from the [Garmin Connect IQ watchface store](https://apps.garmin.com/en-US/apps/b6ac3e67-1e91-4689-955e-b1f94e289d40).
+1. Download the latest release from the [Garmin Connect IQ watchface store]().
 
 2. Connect your watch to a PC, and copy-paste `square-watchhands.prg` into the `GARMIN/Apps` directory.
 
