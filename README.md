@@ -4,7 +4,7 @@
 <!-- Find new badges at https://shields.io/badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Garmin Connect IQ: Find on the watchface store](https://img.shields.io/badge/Garmin%20Connect%20IQ-Find%20on%20the%20watchface%20store-white?logoColor=11a9ed&labelColor=11a9ed&color=white)
-]()
+](https://apps.garmin.com/en-US/apps/50dd84d8-feaa-451a-9b2d-470031e750b5)
 
 <div align="center"><img src="https://raw.githubusercontent.com/Cutwell/garmin-square-watchhands-watchface/main/cover-image.png" alt="A watchface displaying the time four o'clock"></div>
 
@@ -19,7 +19,7 @@ Download a pre-built binary for supported devices:
 |Forerunner 45|
 |Forerunner 45 Plus|
 
-1. Download the latest release from the [Garmin Connect IQ watchface store]().
+1. Download the latest release from the [Garmin Connect IQ watchface store](https://apps.garmin.com/en-US/apps/50dd84d8-feaa-451a-9b2d-470031e750b5).
 
 2. Connect your watch to a PC, and copy-paste `square-watchhands.prg` into the `GARMIN/Apps` directory.
 
